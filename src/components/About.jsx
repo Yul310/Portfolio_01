@@ -38,19 +38,19 @@ const About = () => {
                         <p>General Assembly </p>
                     </div>
                     <div className="flex flex-inline items-center">
-                        <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Software Engineering Immersive</p>
+                        <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Software Engineering Fellow &nbsp;-&nbsp; 3 months</p>
                     </div>
                     <div className='sm:text-right text-4xl font-medium'>
                         <p>Kohn Pedersen Fox </p>
                     </div>
                     <div className="flex flex-inline items-center">
-                    <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Architectural Designer</p>
+                    <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Architectural Designer &nbsp;-&nbsp; 7 years</p>
                     </div>
                     <div className='sm:text-right text-4xl font-medium'>
                         <p>Kengo Kuma Architects</p>
                     </div>
                     <div className="flex flex-inline items-center">
-                        <p className='text-xl'>Tokyo &nbsp;&nbsp; || &nbsp;&nbsp; Design Internship</p>
+                        <p className='text-xl'>Tokyo &nbsp;&nbsp; || &nbsp;&nbsp; Design Internship  &nbsp;-&nbsp; 3 months</p>
                     </div>
                 
                 </div>
