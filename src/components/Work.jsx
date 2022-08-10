@@ -16,16 +16,16 @@ const Work = () => {
 
 
                 <div
-                    className='grid  sm:grid-cols-1 md:grid-cols-1 gap-4'>
+                    className='grid  sm:grid-cols-1 md:grid-cols-2 gap-4'>
 
                 {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workone})` }}
                         className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hoverEffect */}
-                        <div className='opacity-0  group-hover:opacity-100'>
+                        <div className='opacity-0  text-center  group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white  tracking-wider'>
-                                Angry Zverev - HTML Canvas Game
+                                Angry Zverev <br />HTML Canvas Game
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://yul310.github.io/Project01_Angry-Zverev/">
@@ -40,12 +40,12 @@ const Work = () => {
 
                     {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${worktwo})` }}
-                        className='mt-10 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hoverEffect */}
-                        <div className='opacity-0  group-hover:opacity-100'>
+                        <div className='opacity-0  text-center  group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white  tracking-wider'>
-                                Wish&Shop - Full Stack with JS servers & NoSQL
+                                Wish&Shop <br /> Full Stack with JS servers & NoSQL
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://wishandshop.herokuapp.com/">
@@ -61,12 +61,12 @@ const Work = () => {
 
                     {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workthree})` }}
-                        className='mt-10 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hoverEffect */}
-                        <div className='opacity-0  group-hover:opacity-100'>
+                        <div className='opacity-0 text-center  group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white  tracking-wider'>
-                                Clear Sight - MERN Stack App Group Project
+                                Clear Sight<br />MERN Stack App Group Project
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://clearsight-sei.herokuapp.com/">
@@ -82,12 +82,12 @@ const Work = () => {
 
                     {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workfour})` }}
-                        className='mt-10 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hoverEffect */}
-                        <div className='opacity-0  group-hover:opacity-100'>
+                        <div className='opacity-0  text-center  group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white  tracking-wider'>
-                                Tripplan - MERN Stack App
+                                Tripplan <br />MERN Stack App
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://tripnote.herokuapp.com//">

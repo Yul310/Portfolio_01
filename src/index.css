@@ -27,7 +27,7 @@ body{
     background-position: center;
     min-height: 140px;
     max-height:400px;
-    max-width: 700px;
+    max-width: 500px;
 
     /* padding-top:37% */
     aspect-ratio:2/1.15;
