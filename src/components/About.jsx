@@ -77,7 +77,7 @@ const About = () => {
                         <p>Google UX Design Courses </p>
                     </div>
                     <div className="flex flex-inline items-center">
-                        <p className='text-xl'>On-line courses  </p>
+                        <p className='text-xl'>On-line Courses  </p>
                     </div>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>Columbia University</p>
