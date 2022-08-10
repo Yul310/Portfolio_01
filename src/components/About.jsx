@@ -28,7 +28,7 @@ const About = () => {
                 {/* Experience */}
                 <div className='max-w-[1400px] w-full px-4 grid grid-cols-2 gap-10 mt-[100px]'>
                     <div className='sm:text-right pb-8 pl-4'>
-                        <p className='text-4xl font-bold inline border-b-4 border-yellow-300 '>Experience</p>
+                        <p className='text-4xl font-bold inline border-b-4 border-white '>Experience</p>
                     </div>
                     <div></div>
                 </div>
@@ -38,19 +38,19 @@ const About = () => {
                         <p>General Assembly </p>
                     </div>
                     <div className="flex flex-inline items-center">
-                        <p className='text-xl'>New York &nbsp;&nbsp; | &nbsp;| &nbsp;&nbsp; Software Engineering Immersive</p>
+                        <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Software Engineering Immersive</p>
                     </div>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>Kohn Pedersen Fox </p>
                     </div>
                     <div className="flex flex-inline items-center">
-                    <p className='text-xl'>New York &nbsp;&nbsp; | &nbsp;| &nbsp;&nbsp; Architectural Designer</p>
+                    <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Architectural Designer</p>
                     </div>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>Kengo Kuma Architects</p>
                     </div>
                     <div className="flex flex-inline items-center">
-                        <p className='text-xl'>Tokyo &nbsp;&nbsp; | &nbsp;| &nbsp;&nbsp; Design Internship</p>
+                        <p className='text-xl'>Tokyo &nbsp;&nbsp; || &nbsp;&nbsp; Design Internship</p>
                     </div>
                 
                 </div>
@@ -61,7 +61,7 @@ const About = () => {
                 {/* education */}
                 <div className='max-w-[1400px] w-full px-4 grid grid-cols-2 gap-10 mt-[100px]'>
                     <div className='sm:text-right pb-8 pl-4'>
-                        <p className='text-4xl font-bold inline border-b-4 border-yellow-300 '>Education</p>
+                        <p className='text-4xl font-bold inline border-b-4 border-white '>Education</p>
                     </div>
                     <div></div>
                 </div>
@@ -71,7 +71,7 @@ const About = () => {
                         <p>General Assembly </p>
                     </div>
                     <div className="flex flex-inline items-center">
-                        <p className='text-xl'>New York &nbsp;&nbsp; | &nbsp;| &nbsp;&nbsp; Software Engineering Immersive</p>
+                        <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Software Engineering Immersive</p>
                     </div>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>Google UX Design Courses </p>
@@ -83,13 +83,13 @@ const About = () => {
                         <p>Columbia University</p>
                     </div>
                     <div className="flex flex-inline items-center">
-                        <p className='text-xl'>New York &nbsp;&nbsp; | &nbsp;| &nbsp;&nbsp; Master of Architecture</p>
+                        <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Master of Architecture</p>
                     </div>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>Hong-Ik University</p>
                     </div>
                     <div className="flex flex-inline items-center">
-                        <p className='text-xl'>Seoul &nbsp;&nbsp; | &nbsp;| &nbsp;&nbsp; Bachelor of Architecture</p>
+                        <p className='text-xl'>Seoul &nbsp;&nbsp; || &nbsp;&nbsp; Bachelor of Architecture</p>
                     </div>
                 </div>
 
