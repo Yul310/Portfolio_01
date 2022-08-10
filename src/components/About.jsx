@@ -11,7 +11,7 @@ const About = () => {
                     <div></div>
                 </div>
                 <div className='max-w-[1400px] w-full px-4 grid sm:grid-cols-2 gap-10 mt-5'>
-                    <div className='sm:text-right text-4xl font-bold'>
+                    <div className='sm:text-right text-4xl font-medium'>
                         <p>Hi. I'm Samyul.Nice to meet you. </p>
                     </div>
                     <div>
@@ -26,7 +26,7 @@ const About = () => {
 
 
                 {/* Experience */}
-                <div className='max-w-[1400px] w-full px-4 grid grid-cols-2 gap-10 mt-[100px]'>
+                <div className='max-w-[1400px] w-full px-4 grid grid-cols-2 gap-10 mt-[80px]'>
                     <div className='sm:text-right pb-8 pl-4'>
                         <p className='text-4xl font-bold inline border-b-4 border-white '>Experience</p>
                     </div>
@@ -34,19 +34,19 @@ const About = () => {
                 </div>
 
                 <div className='max-w-[1400px] w-full px-4 grid sm:grid-cols-2 gap-10'>
-                    <div className='sm:text-right text-4xl font-bold'>
+                    <div className='sm:text-right text-4xl font-medium'>
                         <p>General Assembly </p>
                     </div>
                     <div className="flex flex-inline items-center">
                         <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Software Engineering Immersive</p>
                     </div>
-                    <div className='sm:text-right text-4xl font-bold'>
+                    <div className='sm:text-right text-4xl font-medium'>
                         <p>Kohn Pedersen Fox </p>
                     </div>
                     <div className="flex flex-inline items-center">
                     <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Architectural Designer</p>
                     </div>
-                    <div className='sm:text-right text-4xl font-bold'>
+                    <div className='sm:text-right text-4xl font-medium'>
                         <p>Kengo Kuma Architects</p>
                     </div>
                     <div className="flex flex-inline items-center">
@@ -59,7 +59,7 @@ const About = () => {
 
 
                 {/* education */}
-                <div className='max-w-[1400px] w-full px-4 grid grid-cols-2 gap-10 mt-[100px]'>
+                <div className='max-w-[1400px] w-full px-4 grid grid-cols-2 gap-10 mt-[80px]'>
                     <div className='sm:text-right pb-8 pl-4'>
                         <p className='text-4xl font-bold inline border-b-4 border-white '>Education</p>
                     </div>
@@ -67,25 +67,25 @@ const About = () => {
                 </div>
 
                 <div className='max-w-[1400px] w-full px-4 grid sm:grid-cols-2 gap-10'>
-                    <div className='sm:text-right text-4xl font-bold'>
+                    <div className='sm:text-right text-4xl font-medium'>
                         <p>General Assembly </p>
                     </div>
                     <div className="flex flex-inline items-center">
                         <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Software Engineering Immersive</p>
                     </div>
-                    <div className='sm:text-right text-4xl font-bold'>
+                    <div className='sm:text-right text-4xl font-medium'>
                         <p>Google UX Design Courses </p>
                     </div>
                     <div className="flex flex-inline items-center">
                         <p className='text-xl'>On-line Courses  </p>
                     </div>
-                    <div className='sm:text-right text-4xl font-bold'>
+                    <div className='sm:text-right text-4xl font-medium'>
                         <p>Columbia University</p>
                     </div>
                     <div className="flex flex-inline items-center">
                         <p className='text-xl'>New York &nbsp;&nbsp; || &nbsp;&nbsp; Master of Architecture</p>
                     </div>
-                    <div className='sm:text-right text-4xl font-bold'>
+                    <div className='sm:text-right text-4xl font-medium'>
                         <p>Hong-Ik University</p>
                     </div>
                     <div className="flex flex-inline items-center">
