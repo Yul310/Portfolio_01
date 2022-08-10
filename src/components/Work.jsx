@@ -16,7 +16,7 @@ const Work = () => {
 
 
                 <div
-                    className='grid  sm:grid-cols-1 md:grid-cols-2 gap-4'>
+                    className='grid  sm:grid-cols-1 md:grid-cols-1 gap-4'>
 
                 {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workone})` }}
@@ -24,7 +24,7 @@ const Work = () => {
 
                         {/* hoverEffect */}
                         <div className='opacity-0  text-center  group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white  tracking-wider'>
+                            <span className='text-2xl font-bold text-[#0a192f]  tracking-wider'>
                                 Angry Zverev <br />HTML Canvas Game
                             </span>
                             <div className='pt-8 text-center'>
@@ -44,7 +44,7 @@ const Work = () => {
 
                         {/* hoverEffect */}
                         <div className='opacity-0  text-center  group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white  tracking-wider'>
+                            <span className='text-2xl font-bold text-[#0a192f] tracking-wider'>
                                 Wish&Shop <br /> Full Stack with JS servers & NoSQL
                             </span>
                             <div className='pt-8 text-center'>
@@ -65,7 +65,7 @@ const Work = () => {
 
                         {/* hoverEffect */}
                         <div className='opacity-0 text-center  group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white  tracking-wider'>
+                            <span className='text-2xl font-bold text-[#0a192f]  tracking-wider'>
                                 Clear Sight<br />MERN Stack App Group Project
                             </span>
                             <div className='pt-8 text-center'>
@@ -86,11 +86,11 @@ const Work = () => {
 
                         {/* hoverEffect */}
                         <div className='opacity-0  text-center  group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white  tracking-wider'>
+                            <span className='text-2xl font-bold text-[#0a192f] tracking-wider'>
                                 Tripplan <br />MERN Stack App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://tripnote.herokuapp.com//">
+                                <a href="https://tripnote.herokuapp.com">
                                     <button className='text-center rounde-lg px-4 py-3 m-2 bg-white text-gray-700 text-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="https://github.com/Yul310/Trip_Planner">

@@ -8,7 +8,7 @@ const Contact = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-yellow-300 text-white'>
                         Contact
                     </p>
-                    <p className='text-white py-4'> Please feel free to contact me </p>
+                    <p className='text-white py-4'> Please feel free to contact me . </p>
                 </div>
                 <input  className="p-2 bg-white" type="text" placeholder='Your name' name='Name' />
                 <input className="my-4 p-2 bg-white" type="email" placeholder='Your Email' name='email' />

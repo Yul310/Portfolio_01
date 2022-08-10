@@ -42,6 +42,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          
+            <a href="https://www.samyulhuh.com/">Design Work</a>
+            
+         
+        </li>
+        <li>
           <Link to="contact" spy={true} smooth={true} duration={500} >
             Contact
           </Link>
@@ -125,7 +131,7 @@ const Navbar = () => {
           </li> */}
           <li className='w-[60px] h-[100px] flex justify-between items-center mt-[-40px] hover:mt-[-5px] duration-300 bg-yellow-300'>
             <a className='flex flex-col justify-between items-center  text-center w-full text-[#0a192f]'
-              href="">
+              href="https://drive.google.com/file/d/1bvbIlW5vcdgQRvG3kyAFHlxnfjWCh7o0/view?usp=sharing">
               Resume
               {"\n"}
               <p className='text-yellow-300'>-</p>
