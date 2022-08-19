@@ -2,8 +2,8 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div name='contact' className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4">
-            <form method='post' action="https://getform.io/f/9359366a-3e00-493d-a5b2-cbf3bb960028" className='flex flex-col max-w-[700px] w-full'>
+        <div name='contact' className="w-full  bg-[#0a192f] flex justify-center items-center p-4  my-[100px]">
+            <form method='post' action="https://getform.io/f/9359366a-3e00-493d-a5b2-cbf3bb960028" className='flex flex-col max-w-[700px] w-full '>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-yellow-300 text-white'>
                         Contact
