@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#343434] text-gray-300">
       <div>
         {/* <img src={Logo} alt="Logo Image" style={{ width: '50px' }} /> */}
       </div>
@@ -99,22 +99,22 @@ const Navbar = () => {
       {/* <div className='hidden lg:flex fixed flex-col top-[35%] left-0'> */}
       <div className='flex fixed  top-[0%] left-0'>
         <ul className='flex flex-row'>
-          <li className='w-[60px] h-[100px] flex justify-between items-center mt-[-40px] hover:mt-[-5px] duration-300 bg-yellow-300'>
-            <a className='flex flex-col justify-between items-center  text-center w-full text-[#0a192f]'
+          <li className='w-[60px] h-[100px] flex justify-between items-center mt-[-40px] hover:mt-[-5px] duration-300 bg-[#343434]'>
+            <a className='flex flex-col justify-between items-center  text-center w-full text-[#F8FF24]'
               href="https://www.linkedin.com/in/samyul-huh/">
               Linkedin
               {"\n"}
-              <p className='text-yellow-300'>-</p>
+              <p className=' text-[#343434]'>-</p>
               {"\n"}
               <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[60px] h-[100px] flex justify-between items-center mt-[-40px] hover:mt-[-5px] duration-300 bg-yellow-300'>
-            <a className='flex flex-col justify-between items-center  text-center w-full text-[#0a192f]'
+          <li className='w-[60px] h-[100px] flex justify-between items-center mt-[-40px] hover:mt-[-5px] duration-300 bg-[#343434]'>
+            <a className='flex flex-col justify-between items-center  text-center w-full text-[#F8FF24]'
               href="https://github.com/Yul310">
               Github
               {"\n"}
-              <p className='text-yellow-300'>-</p>
+              <p className=' text-[#343434]'>-</p>
               {"\n"}
               <FaGithub size={30} />
             </a>
@@ -129,12 +129,12 @@ const Navbar = () => {
               <HiOutlineMail size={30} />
             </a>
           </li> */}
-          <li className='w-[60px] h-[100px] flex justify-between items-center mt-[-40px] hover:mt-[-5px] duration-300 bg-yellow-300'>
-            <a className='flex flex-col justify-between items-center  text-center w-full text-[#0a192f]'
+          <li className='w-[60px] h-[100px] flex justify-between items-center mt-[-40px] hover:mt-[-5px] duration-300 bg-[#343434]'>
+            <a className='flex flex-col justify-between items-center  text-center w-full text-[#F8FF24]'
               href="https://drive.google.com/file/d/1bvbIlW5vcdgQRvG3kyAFHlxnfjWCh7o0/view?usp=sharing">
               Resume
               {"\n"}
-              <p className='text-yellow-300'>-</p>
+              <p className=' text-[#343434]'>-</p>
               {"\n"}
               <BsFillPersonLinesFill size={30} />
             </a>
