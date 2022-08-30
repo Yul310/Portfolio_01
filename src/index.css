@@ -39,8 +39,8 @@ body{
     font-weight:bold;
     background-image: linear-gradient(
         to right,
-        rgba(253, 224, 71, 1),
-        rgba(253, 224, 71, 1)
+        #F8FF24,
+    #F8FF24
     )!important;
 
 }
