@@ -9,15 +9,15 @@ import useScript from "./useScript"
 
 
 
-function App() {
+function App(url) {
   
-  // useScript(url)
+  useScript(url)
 
   return (
 
-
-
-    <div className="relative z-0">
+<>
+<canvas id="canvas" className='w-full h-screen absolute z-0' /> 
+    <div >
       <Navbar />
       <Home />
       <About />
@@ -26,7 +26,7 @@ function App() {
       <Contact />
     </div>
    
-  
+    </>
 
   );
 }

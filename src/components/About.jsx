@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About = () => {
+const About = (url) => {
     return (
         <div name='about' className='w-full  bg-[#343434] text-gray-300 my-[100px]'>
             <div className='flex flex-col justify-center items-center w-full h-full'>

@@ -14,9 +14,9 @@ const Home = (url) => {
     return (
         <>
 
-
-            
-            <div name='home' className=' w-full h-screen'>
+{/* 
+            <canvas id="canvas" className='absolute z-0' /> */}
+            <div name='home' className=' w-full h-screen '>
 
                 {/* Container */}
                 <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center  h-[100%]'>
@@ -29,7 +29,7 @@ const Home = (url) => {
                     <p className=' text-[#909090] py-4 max-w-700 text-xl'> who has an architecture background and loves problem solving and building, structuring digital experiences. </p>
 
 
-                    <div>
+                    <div >
                         <button className='text-white group border-2 px-6 py-3 my-2 flex items-center rounded-lg hover:bg-[#F8FF24] hover:border-[#F8FF24] hover:text-[#0a192f]'>
 
                             <Link to="work" spy={true} smooth={true} duration={500} className='group-hover:font-black' >
@@ -39,15 +39,16 @@ const Home = (url) => {
                                 <HiArrowNarrowRight className='ml-3' />
                             </span>
                         </button>
-                       
+
                     </div>
-                   
+
                 </div>
-                
-                
+
+
             </div>
 
             {/* <canvas id="canvas" className='flex justify-around' /> */}
+
         </>
     )
 }
