@@ -1,21 +1,20 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll'
-import useScript from '../useScript'
 
 
 
 
-const Home = (url) => {
 
-    // useScript(url)
+const Home = () => {
+
+   
 
 
     return (
         <>
 
-{/* 
-            <canvas id="canvas" className='absolute z-0' /> */}
+
             <div name='home' className=' w-full h-screen '>
 
                 {/* Container */}
@@ -47,7 +46,7 @@ const Home = (url) => {
 
             </div>
 
-            {/* <canvas id="canvas" className='flex justify-around' /> */}
+           
 
         </>
     )

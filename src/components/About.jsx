@@ -1,8 +1,10 @@
 import React from 'react'
 
-const About = (url) => {
+
+const About = () => {
     return (
-        <div name='about' className='w-full  bg-[#343434] text-gray-300 my-[100px]'>
+      
+        <div name='about' className='w-full   text-gray-300 my-[100px]'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1400px] w-full px-4 grid grid-cols-2 gap-10'>
                     <div className='sm:text-right pb-8 pl-4'>
@@ -104,6 +106,7 @@ const About = (url) => {
             </div>
 
         </div>
+      
     )
 }
 

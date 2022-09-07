@@ -4,10 +4,12 @@ const useScript = (url) => {
     useEffect(() => {
         const canvas = document.getElementById('canvas')
         const ctx = canvas.getContext('2d')
+
         canvas.width = window.innerWidth
         canvas.height = window.innerHeight
+
         let spots = []
-        let hue = 0;
+        // let hue = 0;
 
         const mouse = {
             x: undefined,
@@ -30,7 +32,7 @@ const useScript = (url) => {
                 this.size = Math.random() * 2 + 0.1
                 this.speedX = Math.random() * 2 - 1
                 this.speedY = Math.random() * 2 - 1
-                this.color = 'hsl(' + hue + ',100%,50%)'
+                this.color = '#F8FE25'
             }
             update() {
                 this.x += this.speedX
@@ -76,7 +78,7 @@ const useScript = (url) => {
         function animate() {
             ctx.clearRect(0, 0, canvas.width, canvas.height)
             handleParticles()
-            hue++
+            // hue++
             requestAnimationFrame(animate)
         }
 
@@ -91,15 +93,13 @@ const useScript = (url) => {
         })
         window.addEventListener('click', function () {
             canvas.style.display = 'none'
-         })
-   
-         window.addEventListener('scroll', function () {
+        })
+
+        window.addEventListener('scroll', function () {
             canvas.style.display = 'block'
-         })
+        })
 
         animate()
-
-
 
 
     }, [url])

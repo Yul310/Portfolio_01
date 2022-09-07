@@ -25,7 +25,7 @@ function App(url) {
       <Work />
       <Contact />
     </div>
-   
+  
     </>
 
   );
