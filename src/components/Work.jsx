@@ -20,10 +20,10 @@ const Work = () => {
 
                 {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workone})` }}
-                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-4  border-[#F8FF24]'>
 
                         {/* hoverEffect */}
-                        <div className='opacity-0  text-center  group-hover:opacity-100'>
+                        <div className='opacity-0  text-center  group-hover:opacity-100 '>
                             <span className='text-2xl font-bold text-[#0a192f]  tracking-wider'>
                                 Angry Zverev <br />HTML Canvas Game
                             </span>
@@ -40,7 +40,7 @@ const Work = () => {
 
                     {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${worktwo})` }}
-                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-4  border-[#F8FF24]'>
 
                         {/* hoverEffect */}
                         <div className='opacity-0  text-center  group-hover:opacity-100'>
@@ -61,7 +61,7 @@ const Work = () => {
 
                     {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workthree})` }}
-                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-4  border-[#F8FF24]'>
 
                         {/* hoverEffect */}
                         <div className='opacity-0 text-center  group-hover:opacity-100'>
@@ -82,7 +82,7 @@ const Work = () => {
 
                     {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workfour})` }}
-                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-4  border-[#F8FF24]'>
 
                         {/* hoverEffect */}
                         <div className='opacity-0  text-center  group-hover:opacity-100'>
