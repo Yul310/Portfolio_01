@@ -24,8 +24,8 @@ const Home = () => {
 
                     <p className='text-[#F8FF24] text-2xl'>Hi, my name is </p>
                     <h1 className='text-4xl sm:text-7xl font-bold text-white'>Samyul Huh.</h1>
-                    <h2 className='text-4xl sm:text-7xl font-bold text-[#909090]'>I'm a frontend Developer</h2>
-                    <p className=' text-[#909090] py-4 max-w-700 text-xl'> who has an architecture background and loves problem solving and building, structuring digital experiences. </p>
+                    <h2 className='text-4xl sm:text-7xl font-bold text-[#909090]'>I'm a software engineer</h2>
+                    <p className=' text-[#909090] py-4 max-w-700 text-xl'> who has an architecture background & loves problem solving & building, structuring digital experiences. </p>
 
 
                     <div >
