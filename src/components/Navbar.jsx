@@ -20,35 +20,35 @@ const Navbar = () => {
 
       {/* Menu */}
 
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex '>
         <li>
-          <Link to="home" spy={true} smooth={true} duration={500} >
+          <Link to="home" spy={true} smooth={true} duration={500} className='hover:text-[#F8FF24]'>
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" spy={true} smooth={true} duration={500} >
+          <Link to="about" spy={true} smooth={true} duration={500} className='hover:text-[#F8FF24]'>
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} duration={500} >
+          <Link to="skills" spy={true} smooth={true} duration={500} className='hover:text-[#F8FF24]'>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" spy={true} smooth={true} duration={500} >
+          <Link to="work" spy={true} smooth={true} duration={500} className='hover:text-[#F8FF24]'>
             Work
           </Link>
         </li>
         <li>
           
-            <a href="https://www.samyulhuh.com/">Design Work</a>
+            <a href="https://www.samyulhuh.com/" className='hover:text-[#F8FF24]'>Design Work</a>
             
          
         </li>
         <li>
-          <Link to="contact" spy={true} smooth={true} duration={500} >
+          <Link to="contact" spy={true} smooth={true} duration={500} className='hover:text-[#F8FF24]'>
             Contact
           </Link>
         </li>
@@ -67,27 +67,27 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#343434] flex flex-col justify-center items-center'}>
 
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:text-[#F8FF24]'>
           <Link onClick={handleClick} to="home" spy={true} smooth={true} duration={500} >
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:text-[#F8FF24]'>
           <Link onClick={handleClick}  to="about" spy={true} smooth={true} duration={500} >
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:text-[#F8FF24]'>
           <Link onClick={handleClick}  to="skills" spy={true} smooth={true} duration={500} >
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:text-[#F8FF24]'>
           <Link onClick={handleClick}  to="work" spy={true} smooth={true} duration={500} >
             Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:text-[#F8FF24]'>
           <Link onClick={handleClick}  to="contact" spy={true} smooth={true} duration={500} >
             Contact
           </Link>
