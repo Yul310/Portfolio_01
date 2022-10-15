@@ -18,6 +18,31 @@ const Work = () => {
                 <div
                     className='grid  sm:grid-cols-1 md:grid-cols-1 gap-4'>
 
+                    {/* Grid Item */}
+                    <div style={{ backgroundImage: `url(${workfour})` }}
+                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-4  border-[#F8FF24]'>
+
+                        {/* hoverEffect */}
+                        <div className='opacity-0  text-center  group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-[#0a192f] tracking-wider'>
+                                Tripplan <br />MERN Stack App
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://tripnote.herokuapp.com">
+                                    <button className='text-center rounde-lg px-4 py-3 m-2 bg-white text-gray-700 text-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/Yul310/Trip_Planner">
+                                    <button className='text-center rounde-lg px-4 py-3 m-2 bg-white text-gray-700 text-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
                 {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workone})` }}
                         className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-4  border-[#F8FF24]'>
@@ -80,25 +105,7 @@ const Work = () => {
                     </div>
 
 
-                    {/* Grid Item */}
-                    <div style={{ backgroundImage: `url(${workfour})` }}
-                        className='mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-4  border-[#F8FF24]'>
 
-                        {/* hoverEffect */}
-                        <div className='opacity-0  text-center  group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-[#0a192f] tracking-wider'>
-                                Tripplan <br />MERN Stack App
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href="https://tripnote.herokuapp.com">
-                                    <button className='text-center rounde-lg px-4 py-3 m-2 bg-white text-gray-700 text-bold text-lg'>Demo</button>
-                                </a>
-                                <a href="https://github.com/Yul310/Trip_Planner">
-                                    <button className='text-center rounde-lg px-4 py-3 m-2 bg-white text-gray-700 text-bold text-lg'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
 
 
 
