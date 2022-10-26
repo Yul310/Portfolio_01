@@ -25,7 +25,7 @@ const Work = () => {
                         {/* hoverEffect */}
                         <div className='opacity-0  text-center  group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-[#0a192f] tracking-wider'>
-                                Tripplan <br />MERN Stack App
+                                Tripplan <br />MERN Stack App <br />ID:sam@email.com PW:sam
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://tripnote.herokuapp.com">
@@ -70,7 +70,7 @@ const Work = () => {
                         {/* hoverEffect */}
                         <div className='opacity-0  text-center  group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-[#0a192f] tracking-wider'>
-                                Wish&Shop <br /> Full Stack with JS servers & NoSQL
+                                Wish&Shop <br /> Full Stack with JS servers & NoSQL <br />ID:sam PW:sam || SignUp New User
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://wishandshop.herokuapp.com/">
@@ -91,7 +91,7 @@ const Work = () => {
                         {/* hoverEffect */}
                         <div className='opacity-0 text-center  group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-[#0a192f]  tracking-wider'>
-                                Clear Sight<br />MERN Stack App Group Project
+                                Clear Sight<br />MERN Stack App Group Project <br />ID:sam@email.com PW:sam 
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://clearsight-sei.herokuapp.com/">
