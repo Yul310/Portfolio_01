@@ -3,10 +3,12 @@ import React from 'react'
 import HTML from '../assets/html.png'
 import CSS from '../assets/css.png'
 import JAVASCRIPT from '../assets/javascript.png'
-import python from '../assets/python.png'
+import python from '../assets/pythonPic.png'
 import ReactLogo from '../assets/react.png'
 import Node from '../assets/node.png'
 import tailwind from '../assets/tailwind.png'
+import typescript from '../assets/Typescript_s.png'
+import mongodb from '../assets/MongoDB.png'
 // import ExpressLogo from '../assets/images/express.png'
 // import MongoLogo from '../assets/images/mongo.png'
 // import MongoDBLogo from '../assets/images/mongodb.png'
@@ -52,6 +54,14 @@ const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={tailwind} alt="tailwind icon" />
                         <p className='my-4'> TAILWIND</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={typescript} alt="tailwind icon" />
+                        <p className='my-4'> TYPESCRIPT</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={mongodb} alt="tailwind icon" />
+                        <p className='my-4'> MONGODB</p>
                     </div>
 
 

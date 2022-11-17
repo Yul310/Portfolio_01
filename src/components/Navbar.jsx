@@ -43,7 +43,7 @@ const Navbar = () => {
         </li>
         <li>
           
-            <a href="https://www.samyulhuh.com/" className='hover:text-[#F8FF24]'>Design Work</a>
+            <a href="https://sams-portfolio-dda972.webflow.io/" className='hover:text-[#F8FF24]'>Design Work</a>
             
          
         </li>
