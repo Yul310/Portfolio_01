@@ -28,7 +28,7 @@ const Work = () => {
                                 Tripplan <br />MERN Stack App <br />ID:sam@email.com PW:sam
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://tripnote.herokuapp.com">
+                                <a href="https://tripplan-tiqk.onrender.com/">
                                     <button className='text-center rounde-lg px-4 py-3 m-2 bg-white text-gray-700 text-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="https://github.com/Yul310/Trip_Planner">
